@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "kytea.proto";
+
+package kytea.grpc;
+
+service KyteaSvc {
+  rpc Analyze(kytea.KyteaRequest) returns (kytea.KyteaSentence);
+}

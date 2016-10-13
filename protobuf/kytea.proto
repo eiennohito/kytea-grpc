@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package kytea;
+
+message KyteaUnit {
+  repeated string parts = 1;
+}
+
+message KyteaSentence {
+  repeated KyteaUnit units = 1;
+}
+
+message KyteaRequest {
+  required string input = 1;
+}
