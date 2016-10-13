@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-package kytea;
+package kytea.grpc;
 
 message KyteaUnit {
   repeated string parts = 1;

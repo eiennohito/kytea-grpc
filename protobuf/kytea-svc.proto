@@ -5,5 +5,5 @@ import "kytea.proto";
 package kytea.grpc;
 
 service KyteaSvc {
-  rpc Analyze(kytea.KyteaRequest) returns (kytea.KyteaSentence);
+  rpc Analyze(KyteaRequest) returns (KyteaSentence);
 }
